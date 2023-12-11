@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #4CAF50;
+        }
+
+        section p {
+            color: #666;
+            font-size: 18px;
+        }
+
+        .feature {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .feature-item {
+            flex: 0 0 30%;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .feature-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            section {
+                padding: 30px;
+            }
+
+            .feature-item {
+                flex: 0 0 100%;
+            }
+        }
+    </style>
+    <title>NestWell - Your Pest Control Partner</title>
+</head>
+<body>
+
+    <header>
+        <h1>NestWell</h1>
+        <p>Your Pest Control Partner</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to NestWell</h2>
+        <p>We specialize in effective and eco-friendly pest control solutions to make your living space safe and comfortable.</p>
+    </section>
+
+    <section class="feature">
+        <div class="feature-item">
+            <img src="https://img.freepik.com/free-photo/unrecognizable-person-white-chemical-protection-suit-doing-disinfection-public-areas-stop-spreading-highly-contagious-corona-virus_342744-869.jpg?w=900&t=st=1702275074~exp=1702275674~hmac=696a96273a146dc731f4edbfd1b438576dda77d0a41e6d42a69ec1cce356385d" alt="Pest Inspection">
+            <h3>Pest Inspection</h3>
+            <p>Thorough inspection to identify and assess pest infestations.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://img.freepik.com/free-photo/man-with-tank-reservoir-his-back-spraying-disinfectant-stop-corona-virus_342744-928.jpg?w=900&t=st=1702275245~exp=1702275845~hmac=cd2fd522c065586b0ea3a7f75b16aac493dd1b673327dfc06568aa56044ce39c" alt="Safe Treatments">
+            <h3>Safe Treatments</h3>
+            <p>Environmentally friendly treatments that ensure the safety of your family and pets.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://img.freepik.com/free-photo/person-white-chemical-protection-suit-holding-sprayer-with-disinfectant-chemicals-stop-spreading-highly-contagious-virus_342744-907.jpg?w=900&t=st=1702275229~exp=1702275829~hmac=72b24eb43120465a6d6ce593f18f3be4962fc984f6c3016c70fab1575b3abc1b" alt="Expert Technicians">
+            <h3>Expert Technicians</h3>
+            <p>Experienced and trained technicians providing reliable pest control services.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 NestWell - Your Pest Control Partner. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
